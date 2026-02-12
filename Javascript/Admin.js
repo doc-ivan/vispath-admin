@@ -1949,8 +1949,9 @@ function addEventListener(user) {
         }
 
         async function theresNoLoginUser() {
-            window.location.href = "Admin Auth.html"
+            window.location.href = "index.html"
         }
+
 
 
 
