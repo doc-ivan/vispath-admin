@@ -452,7 +452,7 @@ async function getStatusFromRealTimeDatabase(docId) {
                 <div class="stat-info">
                     <h3>Total Accounts</h3>
                     <p  class="stat-number">${totalAccounts}</p>
-                    <span class="stat-label">Readers This Month</span>
+                    <span class="stat-label">Total Readers</span>
                 </div>
             `
 
@@ -2540,6 +2540,7 @@ function addEventListener(user) {
         async function theresNoLoginUser() {
             window.location.href = "index.html"
         }
+
 
 
 
